@@ -1,0 +1,65 @@
+@media only screen and (max-width: 960px) {
+    .home {
+        height: 65%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .picture {
+        margin-left: 10%;
+        padding-top: 20%;
+    }
+    .my-name {
+        color: #5c6061;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center!important;
+    }
+    .my-info {
+        text-align: center!important;
+        padding: 0 10px;
+        color: black;
+    }
+    .my-quote {
+        text-align: center!important;
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #b3b8b9;
+        color: #0bbcec;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .picture {
+        margin: 1%;
+        position: sticky;
+    }
+    .home {
+        height: 50%;
+        width: 75%;
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .my-name {
+        color: #5c6061;
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center!important;
+        padding-left: 40%;
+        margin-top: -28.5%;
+    }
+    .my-info {
+        padding-left: 50%;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .my-quote {
+        padding-left: 50%;
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #b3b8b9;
+        color: #0bbcec;
+    }
+}

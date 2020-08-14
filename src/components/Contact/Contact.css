@@ -1,0 +1,40 @@
+.contact {
+    transition: box-shadow .3s;
+    width: 74%;
+    height: 30%;
+    margin: 8%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #e9ecef;
+    margin-left: 15%;
+    text-align: center!important;
+}
+
+.contact:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+.gmail{
+    color: #0bbcec;
+    margin-top: -5px;
+}
+
+.gmail-icon :hover{
+  height: 60px;
+  width: 60px;
+}
+.p-text {
+    font-size: 20px;
+}
+
+.contactme {
+    padding-top: 60px;
+    font-size: 40px;
+    letter-spacing: .01em;
+    font-weight: 520;
+    line-height: 1.1;
+    margin-top: 0;
+    text-align: center!important;
+    color: #212529;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}

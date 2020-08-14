@@ -1,0 +1,45 @@
+.mininavbar {
+    background-color: #a1a4aa;
+    height: 50px;
+}
+
+@media only screen and (max-width: 540px)  {
+    .mininav-content {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .mininavitem {
+        text-transform: uppercase;
+        /* letter-spacing: 10px; */
+        font-weight: 500;
+        margin-top: 0px;
+        padding :5%;
+        text-decoration: none;
+    }
+}
+
+.mininavitems {
+    margin-left: 0%;
+}
+
+@media only screen and (min-width: 540px) {
+    .mininav-content {
+        margin-left: -40%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+    .mininavitem {
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-weight: 500;
+        margin-top: 20px;
+        padding-right: 5%;
+        padding-left: 0%;
+        text-decoration: none;
+    }
+}
+
+.mininavitem :hover {
+    color: #0c0b0b80;
+}
+

@@ -1,0 +1,24 @@
+@media only screen and (min-width: 540px) {
+  .my-connection {
+    height: 10%;
+    width: 1%;
+    top: 250px;
+    padding-left: 1%;
+    position: fixed;
+  }
+  .my-item {
+    margin: 5px;
+    fill: #333;
+    position: relative;
+    /* border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #dadce1; */
+  }
+  .my-item:hover {
+    cursor: pointer;
+    /* border-bottom-width: 0px;
+   border-bottom-style: solid;
+   border-bottom-color: #dadce1; */
+    filter: drop-shadow(5px 5px 4px #54545a);
+  }
+}
