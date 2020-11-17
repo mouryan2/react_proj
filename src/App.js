@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { Navbar, Home, Contact, Gallery,Error, Mininav, Media, Education, Skills, Experience } from './components'
+import { Navbar, Home, Contact,Error, Mininav, Media, Education, Skills, Experience } from './components'
 
 
 
@@ -23,7 +23,6 @@ function App() {
         <Route exact path="/education" component={Education} />
         <Route exact path="/experience" component={Experience} />
         <Route exact path="/skills" component={Skills} />
-        <Route exact path="/gallery" component={Gallery} />
         <Route component={Error} />
       </Switch>
     </>

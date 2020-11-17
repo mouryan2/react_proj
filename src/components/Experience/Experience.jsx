@@ -11,14 +11,14 @@ export default function Experience() {
                     role="SOFTWARE ENGINEER"
                     company="Mindtree Ltd"
                     client="LFG"
-                    details="working on lincoln banking project "
+                    details="working for lincoln banking project "
                     experience="October 2019 - present" />
                 <Company
                     role="TEST ENGINEER"
                     company="Adaquare Info"
                     client="Internal"
-                    details="working on Internal project "
-                    experience="January 2018 - September" />
+                    details="worked on Internal project "
+                    experience="January 2018 - September 2019" />
             </div>
         </>
     )

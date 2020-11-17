@@ -43,9 +43,6 @@ export default function Navbar() {
                 <Link to="/Carrer" >CAREER</Link>
               </li>
               <li className="navitem" >
-                <Link to="/gallery">GALLERY</Link>
-              </li>
-              <li className="navitem" >
                 <Link to="/Contact">CONTACT</Link>
               </li>
             </ul>}
@@ -116,10 +113,10 @@ function DropdownMenu(props) {
             <span className="icon-button">{<WorkOutlineIcon />}</span>
            Career
            </a>
-          <Link to="/gallery" className="menu-item"  >
+          {/* <Link to="/gallery" className="menu-item"  >
             <span className="icon-button" >{<PhotoLibraryOutlinedIcon />}</span>
             Gallery
-        </Link>
+        </Link> */}
           <Link to="/Contact" className="menu-item" >
             <span className="icon-button">{<PhoneIcon />}</span>
            Contact
@@ -140,6 +137,7 @@ function DropdownMenu(props) {
            </a>
           <Link to="/skills" className="menu-item" >
             <span className="icon-button">{<BoltIcon />}</span>
+            Skills
           </Link>
           <Link to="/experience" className="menu-item" >
             <span className="icon-button">{<BookmarkBorderOutlinedIcon />}</span>

@@ -39,13 +39,13 @@ export default function Skills() {
                 Worked primarily with  Java and JavaScript, with frameworks such as Spring , Jdbc, Cucumber and Selenium.
             </p>
             <p className="content">
-                Interested in reactive programming , exploring with  React Js and AWS respectively.
+                Interested in reactive programming , exploring with Angular and AWS respectively.
             </p>
                 <Progress done="90" name="JAVA" />
                 <Progress done="75" name="JAVA SCRIPT" />
+                <Progress done="80" name="MY SQL" />
                 <Progress done="65" name="C++" />
                 <Progress done="85" name="SELINIUM" />
-                <Progress done="80" name="MY SQL" />
 
             </div>
         </div>
