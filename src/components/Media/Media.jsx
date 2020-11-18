@@ -10,7 +10,7 @@ export default function media() {
       <a href="https://www.instagram.com/divya_chandaka">
         <img className="my-item" src={instagram} height=" 35px" width="35px" alt="logo" />
       </a>
-      <a href="">
+      <a href="https://github.com/divyachandaka123">
         <img className="my-item" src={github} height=" 35px" width="35px" alt="logo" />
       </a>
       <a  href="https://www.linkedin.com/in/divya-chandaka-7551a4158">

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import imagee from './images/mouri.png'
+import imagee from './images/imagee.png'
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
                         }
                   </div>
 
-                  <div className="my-name">  Mourya </div>
+                  <div className="my-name">  Divya Chandaka </div>
                   <p className="my-info">I have 2 years experience as Software Engineer and I loves exploring new technology's.</p>
                   <div className="my-quote"> Better Efforts, Better Outcomes </div>
             </div>

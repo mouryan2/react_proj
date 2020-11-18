@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="nav-content">
 
           <h3 className="banner">
-            <Link to="/" >MOURYA </Link>
+            <Link to="/" >DIVYA </Link>
           </h3>
 
 
@@ -48,7 +48,6 @@ export default function Navbar() {
             </ul>}
         </div>
       </nav >
-
 
     </>
   )
